@@ -1,0 +1,76 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    color: #fff;
+    background-color: #000;
+}
+
+/* navigation bar css */
+.navigation {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 90vh;
+
+}
+
+.navigation>img {
+    position: relative;
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+}
+
+.navigation>ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0.1vh 0.1vw;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.navigation>ul>li {
+
+    width: max-content;
+    padding: 1vh 1vw;
+    margin: 0.9vh 1vw;
+    display: flex;
+
+    /* gap: 3vw; */
+
+}
+
+.navigation>ul>li>img {
+    position: relative;
+    width: 100%;
+    max-width: 3.8vw;
+    height: auto;
+    filter: invert(100%);
+}
+
+.navigation>ul>li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.navigation>ul>li a:hover {
+    cursor: pointer;
+    color: rgb(203, 166, 17);
+}
