@@ -83,14 +83,16 @@ body {
 
 .main {
     display: flex;
-    /* border: 2px solid; */
+    flex-wrap: wrap;
+    border: 2px solid;
     height: 50vh;
     margin: 6vh 2vw;
     width: auto;
+    justify-content: space-evenly;
 }
 
 .card1 {
-    
+
     position: relative;
     height: 40vh;
     width: 20vw;
@@ -109,7 +111,7 @@ body {
 .card1>img {
     position: relative;
     width: 100%;
-    max-width: 120px;
+    max-width: 10vw;
     height: auto;
     filter: invert(100%);
 }
@@ -146,11 +148,41 @@ body {
     justify-content: flex-end;
     text-align: center;
 }
-p{
+
+p {
     display: flex;
     font-size: 20px;
 }
 
-.problem{
+.problem {
     display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 80vh;
+    margin: 15vh 0.9vw;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ques {
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 9px;
+    width: 80vw;
+    height: fit-content;
+    margin: 0.2rem 0rem;
+    padding: 2vh 0rem;
+}
+
+.ques a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.ques a:hover {
+    font-family: 'Baloo Da 2', cursive;
+    text-decoration: underline;
+    color: rgb(203, 166, 17);
+
 }
