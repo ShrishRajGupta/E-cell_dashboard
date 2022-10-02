@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 26px;
     color: #fff;
     background-color: #000;
@@ -83,10 +83,14 @@ body {
 
 .main {
     display: flex;
+    /* border: 2px solid; */
+    height: 50vh;
+    margin: 6vh 2vw;
+    width: auto;
 }
 
 .card1 {
-    border: 2px solid green;
+    
     position: relative;
     height: 40vh;
     width: 20vw;
@@ -112,7 +116,7 @@ body {
 
 .btn {
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-weight: lighter;
     color: #000;
     font-size: 30px;
@@ -123,6 +127,7 @@ body {
 }
 
 .btn:hover {
+    font-family: 'Baloo 2', cursive;
     font-weight: bold;
     border-radius: 4rem;
     border: 2px solid rgb(203, 166, 17);
@@ -133,9 +138,19 @@ body {
 }
 
 .content2 {
+    font-family: 'Baloo Da 2', cursive;
     display: flex;
+    font-size: 20px;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-end;
     text-align: center;
+}
+p{
+    display: flex;
+    font-size: 20px;
+}
+
+.problem{
+    display: flex;
 }
